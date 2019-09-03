@@ -2,8 +2,7 @@ version: '3'
 
 services: 
   db:
-    container_name: docker-local-mysql
-    image: mysql:5.7.21
+    image: mysql:latest
     volumes:
       - "./data:/var/lib/mysql"
     restart: always
