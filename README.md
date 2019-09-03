@@ -11,3 +11,6 @@ Clone the repo or copy a `docker-compose.yml` file to your system, `cd` into tha
 
 ## Local Persistence
 In each setup, your data is configured to be stored locally in a `./data` directory. If that directory doesn't exist, it'll be created automatically.
+
+## Authentication
+For authenticating as super user with each of these examples, `root` should be the username and `password` should be the password.

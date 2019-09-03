@@ -4,7 +4,7 @@
 
 # Enter the Postgres Shell
 
-`docker-compose exec --user root db psql -h localhost -U postgres`
+`docker-compose exec --user root db psql -h localhost -U root`
 
 # Create a DB
 

@@ -12,7 +12,7 @@ While in the shell, run the following:
 
 ```
 use admin;
-db.auth("user", "password");
+db.auth("root", "password");
 use myDatabase;
-db.createUser({user: "user", pwd: "password", roles:[{role: "readWrite" , db:"myDatabase"}]});
+db.createUser({user: "root", pwd: "password", roles:[{role: "readWrite" , db:"myDatabase"}]});
 ```

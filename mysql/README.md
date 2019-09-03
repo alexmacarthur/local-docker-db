@@ -6,7 +6,7 @@
 
 `docker-compose exec --user root db mysql -u root -p`
 
-When prompted, enter `root` as the password. 
+When prompted, enter `password` as the password. 
 
 # Create a DB
 
