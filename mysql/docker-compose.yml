@@ -4,9 +4,12 @@ services:
   db:
     image: mysql:latest
     volumes:
-      - "./data:/var/lib/mysql"
+      - dbdata:/var/lib/mysql
     restart: always
     ports:
       - 3306:3306
     environment:
       MYSQL_ROOT_PASSWORD: password
+
+volumes:
+  dbdata:
