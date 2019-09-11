@@ -1,0 +1,7 @@
+default=localhost
+
+[localhost]
+domain=db
+port=8443
+scheme=http
+secret=secret
