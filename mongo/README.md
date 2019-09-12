@@ -1,12 +1,20 @@
-# Enter the Container w/ Bash
+# MongoDB w/ Docker Compose
+
+## Enter the Container w/ Bash
 
 `docker-compose exec --user root db /bin/bash`
 
-# Enter the Mongo Shell
+## Enter the Mongo Shell
 
 `docker-compose exec --user root db mongo`
 
-# Create a DB w/ User
+## Super User Authentication
+
+Username: `root`
+
+Password: `password`
+
+## Create a DB w/ User
 
 While in the shell, run the following:
 

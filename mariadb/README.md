@@ -1,4 +1,6 @@
-# Enter the Container w/ Bash
+# MariaDB w/ Docker Compose
+
+## Enter the Container w/ Bash
 
 `docker-compose exec --user root db /bin/bash`
 
@@ -8,7 +10,13 @@
 
 When prompted, enter `password` as the password.
 
-# Create a DB
+## Super User Authentication
+
+Username: `root`
+
+Password: `password`
+
+## Create a DB
 
 While inside the shell, run the following:
 
