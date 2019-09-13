@@ -1,5 +1,11 @@
 # Postgres w/ Docker Compose
 
+## Super User Authentication
+
+Username: `root`
+
+Password: `password`
+
 ## Enter the Container w/ Bash
 
 `docker-compose exec --user root db /bin/bash`
@@ -8,16 +14,10 @@
 
 `docker-compose exec --user root db psql -h localhost -U root`
 
-## Super User Authentication
-
-Username: `root`
-
-Password: `password`
-
 ## Create a DB
 
 While inside the shell, run the following:
 
 ```
-CREATE DATABASE mydatabase;
+CREATE DATABASE "mydatabase";
 ```
