@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  db:
+    command: -jar DynamoDBLocal.jar -sharedDb -dbPath ./data
+    image: amazon/dynamodb-local:latest
+    ports:
+      - 8000:8000
+    volumes:
+      - dbdata:/home/dynamodblocal
+  aws:
+    depends_on:
+      - db
+    image: banst/awscli
+    ports:
+     - 8080:8080
+    env_file:
+      - .env
+
+volumes:
+  dbdata:
