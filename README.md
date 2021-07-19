@@ -4,15 +4,22 @@ A collection of Docker Compose files I've used to quickly spin up local database
 
 # Included Databases
 
-Database   | Docker Compose Configuration | Website
----------- | ---------------------------- | ----------------------------------
-DynamoDB   | [./dynamo](./dynamo/)        | <https://aws.amazon.com/dynamodb/>
-Fauna      | [./fauna](./fauna/)          | <https://fauna.com/>
-MariaDB    | [./maria](./maria/)          | <https://mariadb.org/>
-MongoDB    | [./mongo](./mongo/)          | <https://www.mongodb.com/>
-MySQL      | [./mysql](./mysql/)          | <https://www.mysql.com/>
-PostgreSQL | [./postgres](./postgres/)    | <https://www.postgresql.org/>
-Redis      | [./redis](./redis/)          | <https://redis.io/>
+Database    | Docker Compose Configuration    | Website
+----------- | ------------------------------- | ----------------------------------
+Aerospike   | [./aerospike](./aerospike)      | <https://aerospike.com/>
+ClickHouse  | [./clickhouse](./clickhouse)    | <https://clickhouse.tech/>
+DynamoDB    | [./dynamo](./dynamo/)           | <https://aws.amazon.com/dynamodb/>
+Fauna       | [./fauna](./fauna/)             | <https://fauna.com/>
+MariaDB     | [./maria](./maria/)             | <https://mariadb.org/>
+MeiliSearch | [./meilisearch](./meilisearch/) | <https://meilisearch.com/>
+MongoDB     | [./mongo](./mongo/)             | <https://mongodb.com/>
+MySQL       | [./mysql](./mysql/)             | <https://mysql.com/>
+PostgreSQL  | [./postgres](./postgres/)       | <https://postgresql.org/>
+Redis       | [./redis](./redis/)             | <https://redis.io/>
+ScyllDB     | [./scylla](./scylla)            | <https://scylladb.com/>
+Tarantool   | [./tarantool](./tarantool/)     | <https://tarantool.io/>
+TiDB        | [./tidb](./tidb/)               | <https://pingcap.com/>
+YugaByteDB  | [./yugabyte](./yugabyte)        | <https://yugabyte.com/>
 
 ## Usage
 
@@ -31,3 +38,9 @@ docker-compose down -v
 ## Contributions
 
 If you have a Docker Compose configuration for a database not seen here, please consider making a pull request to add it!
+
+## TODO
+
+- add data volume binding for each database
+- add all possible environment variables
+- add example how to connect with client, with or without docker (have client program installed), and with go

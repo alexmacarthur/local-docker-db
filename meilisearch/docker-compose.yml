@@ -1,0 +1,7 @@
+version: '3.2'
+
+services:
+  meilisearch:
+    image: getmeili/meilisearch
+    ports:
+      - "7700:7700"

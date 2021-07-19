@@ -1,0 +1,12 @@
+version: "3.2"
+
+services:
+  clickhouse:
+    image: yandex/clickhouse-server
+    ports:
+      - 8123:8123
+      - 9000:9000
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144

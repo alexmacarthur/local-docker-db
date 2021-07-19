@@ -1,0 +1,10 @@
+version: '3.2'
+
+services:
+  tarantool:
+    image: tarantool/tarantool:2.7.2 
+    # x.x.0 = alpha, x.x.1 = beta, x.x.2+ = stable, latest not always stable
+    volumes:
+      - ./tarantool-data:/usr/local/share/tarantool
+    ports:
+      - "3301:3301"
