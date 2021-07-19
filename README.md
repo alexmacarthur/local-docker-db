@@ -6,7 +6,7 @@ A collection of Docker Compose files I've used to quickly spin up local database
 
 Database    | Docker Compose Configuration    | Website
 ----------- | ------------------------------- | ----------------------------------
-ClickHouse  / [./clickhouse](./clickhouse)    / <https://https://clickhouse.tech/>
+ClickHouse  | [./clickhouse](./clickhouse)    | <https://https://clickhouse.tech/>
 DynamoDB    | [./dynamo](./dynamo/)           | <https://aws.amazon.com/dynamodb/>
 Fauna       | [./fauna](./fauna/)             | <https://fauna.com/>
 MariaDB     | [./maria](./maria/)             | <https://mariadb.org/>
@@ -16,7 +16,7 @@ MySQL       | [./mysql](./mysql/)             | <https://www.mysql.com/>
 PostgreSQL  | [./postgres](./postgres/)       | <https://www.postgresql.org/>
 Redis       | [./redis](./redis/)             | <https://redis.io/>
 ScyllDB     | [./scylla](./scylla)            | <https://www.scylladb.com/>
-Tarantool   | [./tarantool](./tarantool/)    | <https://tarantool.io/>
+Tarantool   | [./tarantool](./tarantool/)     | <https://tarantool.io/>
 TiDB        | [./tidb](./tidb/)               | <https://pingcap.com/>
 YugaByteDB  | [./yugabyte](./yugabyte)        | <https://www.yugabyte.com/>
 
