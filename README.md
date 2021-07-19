@@ -13,10 +13,12 @@ Fauna       | [./fauna](./fauna/)             | <https://fauna.com/>
 MariaDB     | [./maria](./maria/)             | <https://mariadb.org/>
 MeiliSearch | [./meilisearch](./meilisearch/) | <https://meilisearch.com/>
 MongoDB     | [./mongo](./mongo/)             | <https://mongodb.com/>
+NebulaGraph | [./nebulagraph](./nebulagraph/) | <https://nebula-graph.io/>
 MySQL       | [./mysql](./mysql/)             | <https://mysql.com/>
 PostgreSQL  | [./postgres](./postgres/)       | <https://postgresql.org/>
 Redis       | [./redis](./redis/)             | <https://redis.io/>
-ScyllDB     | [./scylla](./scylla)            | <https://scylladb.com/>
+RedPanda    | [./redpanda](./redpanda)        | <https://vectorized.io/>
+ScyllaDB    | [./scylla](./scylla)            | <https://scylladb.com/>
 Tarantool   | [./tarantool](./tarantool/)     | <https://tarantool.io/>
 TiDB        | [./tidb](./tidb/)               | <https://pingcap.com/>
 YugaByteDB  | [./yugabyte](./yugabyte)        | <https://yugabyte.com/>

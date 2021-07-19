@@ -6,3 +6,5 @@ tidb/config/*/
 .idea
 cockroach/cockroach1
 cockroach/data
+nebulagraph/data
+nebulagraph/logs
