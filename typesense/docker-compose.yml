@@ -1,0 +1,10 @@
+version: '3.2'
+
+services:
+  typesense:
+    image: typesense/typesense:0.21.0
+    command: ./typesense-server --data-dir=/data --api-key=123
+    volumes:
+      - ./typesense-data:/data
+    ports:
+      - "8108:8108"
