@@ -7,7 +7,7 @@ A collection of Docker Compose files I've used to quickly spin up local database
 Database    | Docker Compose Configuration    | Website
 ----------- | ------------------------------- | ----------------------------------
 Aerospike   | [./aerospike](./aerospike)      | <https://aerospike.com/>
-ClickHouse  | [./clickhouse](./clickhouse)    | <https://https://clickhouse.tech/>
+ClickHouse  | [./clickhouse](./clickhouse)    | <https://clickhouse.tech/>
 DynamoDB    | [./dynamo](./dynamo/)           | <https://aws.amazon.com/dynamodb/>
 Fauna       | [./fauna](./fauna/)             | <https://fauna.com/>
 MariaDB     | [./maria](./maria/)             | <https://mariadb.org/>
