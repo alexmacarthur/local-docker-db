@@ -12,14 +12,14 @@ DynamoDB    | [./dynamo](./dynamo/)           | <https://aws.amazon.com/dynamodb
 Fauna       | [./fauna](./fauna/)             | <https://fauna.com/>
 MariaDB     | [./maria](./maria/)             | <https://mariadb.org/>
 MeiliSearch | [./meilisearch](./meilisearch/) | <https://meilisearch.com/>
-MongoDB     | [./mongo](./mongo/)             | <https://www.mongodb.com/>
-MySQL       | [./mysql](./mysql/)             | <https://www.mysql.com/>
-PostgreSQL  | [./postgres](./postgres/)       | <https://www.postgresql.org/>
+MongoDB     | [./mongo](./mongo/)             | <https://mongodb.com/>
+MySQL       | [./mysql](./mysql/)             | <https://mysql.com/>
+PostgreSQL  | [./postgres](./postgres/)       | <https://postgresql.org/>
 Redis       | [./redis](./redis/)             | <https://redis.io/>
-ScyllDB     | [./scylla](./scylla)            | <https://www.scylladb.com/>
+ScyllDB     | [./scylla](./scylla)            | <https://scylladb.com/>
 Tarantool   | [./tarantool](./tarantool/)     | <https://tarantool.io/>
 TiDB        | [./tidb](./tidb/)               | <https://pingcap.com/>
-YugaByteDB  | [./yugabyte](./yugabyte)        | <https://www.yugabyte.com/>
+YugaByteDB  | [./yugabyte](./yugabyte)        | <https://yugabyte.com/>
 
 ## Usage
 
