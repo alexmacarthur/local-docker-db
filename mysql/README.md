@@ -1,3 +1,5 @@
+# MySQL w/ Docker Compose
+
 ## Enter the Container w/ Bash
 
 `docker-compose exec --user root db /bin/bash`

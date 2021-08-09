@@ -1,4 +1,4 @@
-# Postgres w/ Docker Compose
+# PostgreSQL w/ Docker Compose
 
 ## Super User Authentication
 

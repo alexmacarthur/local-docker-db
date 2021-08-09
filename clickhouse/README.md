@@ -1,4 +1,4 @@
-# MeiliSearch w/ Docker Compose
+# ClickHouse w/ Docker Compose
 
 with default empty password
 
