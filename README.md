@@ -19,6 +19,7 @@ PostgreSQL  | [./postgres](./postgres/)       | <https://postgresql.org/>
 Redis       | [./redis](./redis/)             | <https://redis.io/>
 RedPanda    | [./redpanda](./redpanda)        | <https://vectorized.io/>
 ScyllaDB    | [./scylla](./scylla)            | <https://scylladb.com/>
+SQL Server  | [./mssqlserver](./mssqlserver)  | <https://www.microsoft.com/sql-server/>
 Tarantool   | [./tarantool](./tarantool/)     | <https://tarantool.io/>
 TiDB        | [./tidb](./tidb/)               | <https://pingcap.com/>
 YugaByteDB  | [./yugabyte](./yugabyte)        | <https://yugabyte.com/>
