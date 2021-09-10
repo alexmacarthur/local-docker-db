@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:latest
+    user: root
+    volumes:
+      - mssql_data:/var/opt/mssql/data
+    ports:
+      - 1433:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=StrongPassw0rd!
+volumes:
+  mssql_data:
