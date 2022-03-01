@@ -101,6 +101,8 @@ log-level = "error"
 # the "scheduler too busy" error is displayed.
 # scheduler-pending-write-threshold = "100MB"
 
+reserve-space = "0MB"
+
 [pd]
 # pd endpoints
 # endpoints = []
