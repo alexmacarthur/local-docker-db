@@ -3,7 +3,7 @@ version: "3.2"
 services:
 
   scylla-node1:
-    image: scylladb/scylla:4.5.0
+    image: scylladb/scylla:4.5.1
     command: --smp 1 --memory 750M --overprovisioned 1 --api-address 0.0.0.0 --developer-mode 1
     ports:
       - 9042:9042
@@ -13,8 +13,8 @@ services:
       - 7199:7199
       - 10000:10000
 
-  scylla-manager:
-    image: scylladb/scylla-manager
-    container_name: scylla-manager
-    depends_on:
-      - scylla-node1
+#  scylla-manager:
+#    image: scylladb/scylla-manager
+#    container_name: scylla-manager
+#    depends_on:
+#      - scylla-node1
