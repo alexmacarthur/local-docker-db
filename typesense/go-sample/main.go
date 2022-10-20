@@ -1,10 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"html"
 	"log"
-	"net/http"
 	"os"
 	"time"
 
@@ -22,7 +19,7 @@ func main() {
 	if !ok {
 		searchApiKey = ""
 	}
-	fmt.Print(searchApiKey)
+
 	client := typesense.NewClient(
 		typesense.WithServer(searchUrl),
 		typesense.WithAPIKey(searchApiKey),
@@ -39,9 +36,4 @@ func main() {
 	} else {
 		log.Print("connection failed")
 	}
-
-	http.HandleFunc("/bar", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Hello, %q", html.EscapeString(r.URL.Path))
-	})
-	log.Fatal(http.ListenAndServe(":8080", nil))
 }
