@@ -1,0 +1,22 @@
+services:
+  typesense:
+      # image: typesense/typesense:0.24.0.rcn17
+      # container_name: typesense-0-24-0-rcn17
+      build: .
+      #if you don't want to build with Dockerfile, just disable in the lin 5, and enable line 3 and 4.
+      command: --data-dir=/data --api-key=searchkey
+      ports:
+        - "9108:8108"
+        #in this case, I'm using the 9108 port because I already have typesense-server on my local machine in the 8108 port 
+      restart: on-failure:10
+      healthcheck:
+        test: "curl -f http://localhost:9108/health || exit"
+        interval: 10s
+        timeout: 5s
+        retries: 10
+        start_period: 30s
+      volumes:
+        - typesense-data:/data
+
+volumes:
+  typesense-data:
