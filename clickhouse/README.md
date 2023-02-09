@@ -17,4 +17,4 @@ clickhouse-client
 
 ## Other docs
 
-[clickhouse server docker](https://hub.docker.com/r/yandex/clickhouse-server/)
+[clickhouse server docker](https://hub.docker.com/r/clickhouse/clickhouse-server/)
